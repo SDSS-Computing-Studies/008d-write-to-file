@@ -21,7 +21,7 @@ Today we will be reading and writing data from files.  There are many ways to re
 * You can read a whole file into a single variable
 * You can read a file one line at a time, and store each line as an element of a list
 
-### 2 Tasks
+### 3 Tasks
 
 ##### Task 1
 Have the user enter in their name and email address.
@@ -29,13 +29,16 @@ Have the program create a file called 'task1.txt'
 Write their name to the first line and their email to the second line.
 
 Example:
+```
 What is your name? Joe Lunchbox
 What is your email? joe@sandwiches.org 
+```
 
 task1.txt contents:
+```
 Joe Lunchbox
 joe@sandwiches.org 
-
+```
 (3 points) 
 
 ##### Task 2
@@ -44,6 +47,7 @@ Keep reading integers until they enter a blank line (press Enter)
 Write the value of each integer to a new line of a text file called 'task2.txt'
 
 Example:
+```
 Enter integers. Press Return to exit.
 Enter a number: 2
 Enter a number: 3
@@ -54,8 +58,9 @@ Enter a number: 2
 Enter a number: 3
 Enter a number: 4
 Enter a number: 5
-
+```
 task2.txt contents:
+```
 2
 3
 4
@@ -65,7 +70,7 @@ task2.txt contents:
 3
 4
 5
-
+```
 (3 points)
 
 ##### Task 3
@@ -74,15 +79,17 @@ Convert the word to a string literal JSON object
 Write the contents to a file called 'task3.txt'
 
 Example:
+```
 Enter a word: frog
 Enter a word: french
 Enter a word: puppy
 Enter a word: escalate
 Enter a word: ice
-
+```
 task3.txt contents:
+```
 ["frog","french","puppy","escalate","ice"]
-
+```
 (3 points) 
 
 ##### Problem 1
